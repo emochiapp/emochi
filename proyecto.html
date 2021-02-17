@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Emochi - Proyecto</title>
     <meta name="description" content="La app que acompaña a los alumnos de secundaria en su desarrollo emocional">
-    <meta property="og:image" content="https://ramiroandrade.com/assets/img/og-image.png" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
@@ -18,6 +17,13 @@
 
 <body>
     <main>
+        <header>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="proyecto.html">Proyecto</a></li>
+                <li><a href="funcionalidad.html">Funcionalidades</a></li>
+            </ul>
+        </header>
         <section id="hero-case-study" class="emochi">
             <div class="wrapper">
                 <div>
@@ -33,7 +39,7 @@
             <div class="case-study__info">
                 <div class="wrapper">
                     <h2>Brief</h2>
-                    <p>Se nos planteó la tarea de crear un producto o servicio digital que tuviera como centro temático a la educación. Para ello debíamos investigar, definir, idear y prototipar una idea original que aportara valor a ese mundo.</p>
+                    <p>Diseñar un producto digital centrado en el usuario con temática educativa. Empezando por la investigación y la identificación del problema, y finalmente diseñando una herramienta que aporte valor al usuario y dé respuesta a este problema.</p>
                 </div>
             </div>
             <div class="case-study__info">
@@ -67,22 +73,22 @@
 
             <div class="wrapper">
                 <div class="case-study__section aos-init aos-animate" data-aos="fade-up" data-aos-duration="6000">
-                    <h3>Why teenage education?</h3>
-                    <p>After we were given Education as a topic, we started going through all of our educational experience and found that some of the most vivid memories were from a specific time: our teenage years. It's a time of self-definition, making important decisions and a lot of changes.</p>
-                    <p class="u-mb2">So that's why we decided to focus our research on high school teachers and students (from 12 to 16 years old).</p>
+                    <h3>¿Por qué educación secundaria?</h3>
+                    <p>Después de recibir "Educación" como tema, pensamos varias alternativas antes de decidir enfocarnos en nuestra adolescencia y en la educación secundaria. Creemo que es una época de autodefinición, de tomar decisiones importantes y de una gran cantidad de cambios.</p>
+                    <p class="u-mb2">Fue por eso que nos pareció una.</p>
                 </div>
 
                 <div class="case-study__section aos-init aos-animate" data-aos="fade-up" data-aos-duration="6000">
-                    <h3>Surveys, observation and interviews</h3>
-                    <p class="u-mb2">Our first apporach was with two rounds of online surveys to both teachers and students, so that we could start narrowing down the topics and areas where we could find opportunities. We also assisted and observed a couple of student groups during classes.</p>
+                    <h3>Encuestas, observación y entrevistas</h3>
+                    <p class="u-mb2">El primer acercamiento fue con dos rondas de encuestas, a estudiantes y profesores, para poder empezar a definir áreas donde poder encontrar oportunidades. Al mismo tiempo concurrimos a un instituto a realizar una observación participante en varias clases.</p>
                     <picture>
                         <source srcset="" type="image/webp">
                         <img src="assets/img/emochi/observation.png" alt="" class="u-mb2">
                     </picture>
-                    <p>Then we casually interviewed teachers and students to refine the questions and topics we had gathered from the surveys and observation. To cover all the spectrum and it's extremes, we interviewed teachers and students from different centres, from religious private ones to secular public ones.</p>
-                    <p>Finally, we built a script and did more in-depth and structured interviews, this time only to teachers. The focus on teachers-only was due to the constraints of interviewing students (permits  were required due to them being underage).</p>
+                    <p>Más adelante comenzamos con entrevistas casuales para recolectar más datos y empezar a refinar la información que habíamos obtenido a través de las encuestas y de la observación. Para cubrir todo el espectro, entrevistamos a estudiantes y profesores de diferentes tipos de centros, desde centro privados y religiosos hasta publicos seculares.</p> 
+                        
+                    <p>Finalmente, redactamos un guión formal y llevamos a cabo entrevistas en profunidad más estructuradas. Estos son los números finales de nuestra etapa de investigación:</p>
 
-                    <p>Research final numbers:</p>
                     <picture>
                         <source srcset="" type="image/webp">
                         <img src="assets/img/emochi/numeros-research.png" alt="" class="u-mb2">
@@ -91,16 +97,16 @@
 
                 <div class="case-study__section aos-init aos-animate" data-aos="fade-up" data-aos-duration="6000">
                     <h3>User personas</h3>
-                    <p class="u-mb2">With all the information gathered during the research we created our two user personas:</p>
+                    <p class="u-mb2">Con toda la información que recolectamos, creamos dos user personas:</p>
                     
-                    <p class="u-mb0"><strong>Student</strong></p>
-                    <p>Xavi is a 14-year-old student who is always on the phone, has a very active life and is bored by homework, that’s why he needs motivation and more dynamic learning activities.</p>
+                    <p class="u-mb0"><strong>Estudiante</strong></p>
+                    <p>Xavi es un estudiante de 14 años que está siempre con su teléfono, tiene una vida muy activa y lo aburre la tarea, es por eso que necesita motivación y actividades didáctias más dinámicas.</p>
                     <picture>
                         <source srcset="assets/img/emochi/student.webp" type="image/webp">
                         <img src="assets/img/emochi/student.png" alt="" class="u-mb2">
                     </picture>
-                    <p class="u-mb0"><strong>Teacher</strong></p>
-                    <p>Miquel is a teacher and tutor for boys like Xavi. He is someone who likes to include digital solutions in the academic field to obtain more dynamic results and has the need to empower his students.</p>
+                    <p class="u-mb0"><strong>Profesor</strong></p>
+                    <p>Miquel es un profesor y tutor de chicos como Xavi. Le gusta incluir herramientas digitales para lograr clases más entretenidas y siente la necesidad de empoderar a sus estudiantes.</p>
                     <picture>
                         <source srcset="assets/img/emochi/teacher.webp" type="image/webp">
                         <img src="assets/img/emochi/teacher.png" alt="" class="u-mb2">
@@ -116,32 +122,34 @@
 
             <div class="wrapper">
                 <div class="case-study__section aos-init aos-animate" data-aos="fade-up" data-aos-duration="6000">
-                    <h3>Our own bias</h3>
-                    <p class="u-mb2">We were biased by our own experience in high school, so we thought the mainunsolve problems would be the lack of digital tools use and boring long hours of master lectures. But to our surprise, we discovered that times have changed and there are many apps to keep kids interested (kahoot, quizzit, etc.).</p>
+                    <h3>Nuestro propio sesgo</h3>
+                    <p class="u-mb2">Estábamos muy influenciados por nuestra experiencia en la secundaria, por lo que pensamos que los mayores pain points estarían relacionados con la falta de herramientas digitales o el aburrimiento durante las clases. Para nuestra sorpresa, descubrimos que existía una mejora en esos aspectos y que son varias las soluciones digitales educativas que se usan hoy en dia para dinamizar las clases.</p>
                 </div>
                 <div class="case-study__section aos-init aos-animate" data-aos="fade-up" data-aos-duration="6000">
-                    <h3>So, what did we discovered?</h3>
-                    <p>We found two main problems:</p>
+                    <h3>Entonces, ¿qué hallamos?</h3>
+                    <p>Nos encontramos con dos problemas principales:</p>
                     <picture>
                         <source srcset="" type="image/webp">
                         <img src="assets/img/emochi/insights.jpeg" alt="" class="u-mb2">
                     </picture>
                     
-                    <p class="u-mb0"><strong>Different learning levels</strong></p>
-                    <p>In a same group there might be an ADHD kid along with a genius IQ score kid. That affects both teacher and student, as the teacher needs to adapt the content to each one of them and adjust it to their level, and the student might not be getting the attention or support needed to evolve properly.</p>
-                    <q>Attending diversity correctly is, many times, a problem to be overcome in each class.</q>
+                    <p class="u-mb0"><strong>Diferentes niveles de aprendizaje</strong></p>
+                    <p>En un mismo grupo puede haber un estudiante super dotado y uno con ADHD, o simplemente estudiantes con diferentes ritmos y niveles. Esto afecta tanto al profesor como al resto de la clase, ya que el profesor debe adaptar el contenido y los estudiantes puede que no reciban la atención o soporte que necesitan.</p>
+                    <q>Atender correctamente a la diversidad es, muchas veces, un problema que superar en cada clase.</q>
 
-                    <p class="u-mb0"><strong>Lack of emotional intelligence</strong></p>
-                    <p>Bullying, fights and lack of emotion control. External problems that make impossible for the teacher to carry out the lesson, as he needs to deal with all those problems. Students who doesn’t know how to solve their own issues in a mature way and can’t deal with negative results or critiques.</p>
-                    <q>Solving current student problems and dealing with emotional intelligence is a challenge for me, we were never taught how to do it correctly.</q>
+                    <p class="u-mb0"><strong>Falta de inteligencia emocional</strong></p>
+                    <p>Bullying, peleas, falta de control sobre sus emociones, son algunos de los problemas con los que los profesores tienen que lidiar en la clase. Estudiantes que no saben como resolver sus problemas o como actuar frente a determinadas situaciones.</p>
+                    <q>Solucionar problemas corrientes de alumnos y tratar la inteligencia emocional me resulta un reto.</q>
                 </div>
                 <div class="case-study__section aos-init aos-animate" data-aos="fade-up" data-aos-duration="6000">
-                    <h3>User driver and opportunities</h3>
+                    <h3>User driver y oportunidades</h3>
                     <picture>
                         <source srcset="" type="image/webp">
                         <img src="assets/img/emochi/driver.jpeg" alt="" class="u-mb2">
                     </picture>
-                    <p class="u-mb2">As his driver, our teacher persona had the need to accompany students in their personal and academic development. To help them learn all required topics but also help them develop as individuals.</p>
+                    <p class="u-mb2">
+                        
+                        As his driver, our teacher persona had the need to accompany students in their personal and academic development. To help them learn all required topics but also help them develop as individuals.</p>
 
                     <p>And these were the opportunities we found:</p>
                     <ul class="about__list">

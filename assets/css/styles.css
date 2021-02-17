@@ -35,6 +35,32 @@ p.destacado {
     max-width: 690px;
     margin: 0 auto;
 }
+/* Header */
+header {
+    position: fixed;
+    background: #512683;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+    z-index: 100;
+    width: 100%;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    
+}
+header ul li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 17px 20px;
+    margin: 0 5px;
+    font-weight: 300;
+}
+header ul li a.active {
+    border-bottom: solid 3px #FFF;
+    font-weight: 400;
+}
 /* Títulos */
 h1, h2, h3 {
     margin-top: 0;
@@ -288,7 +314,7 @@ h3 {
 #hero-case-study {
     background: #0055ff;
     color: #FFF;
-    padding: 110px 0 0 0;
+    padding: 170px 0 0 0;
     text-align: center;
     /*display: flex;
     flex-direction: column;*/
@@ -428,7 +454,7 @@ video {
     max-width: 690px;
 }
 .case-study__special ol li {
-    color: #0055FF;
+    color: #512683;
     font-family: 'Product Sans Black', sans-serif;
 }
 .case-study__special ol li span {
@@ -563,13 +589,13 @@ video {
     }
     /* Formato Case study */
     #hero-case-study {
-        height: 450px;
+        height: 500px;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
         text-align: left;
-        padding: 50px 30px 0 30px;
+        padding: 100px 30px 0 30px;
         position: relative;
     }
     #hero-case-study .wrapper {
