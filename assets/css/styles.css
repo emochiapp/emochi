@@ -378,6 +378,7 @@ h3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-size: 18px;
 }
 .about__list li::before {
     content: "";
