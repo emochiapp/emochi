@@ -123,25 +123,23 @@ h3 {
 #hero {
     background: url('../img/fondo-b.png'), #512683;
     color: #FFF;
-    padding: 140px 30px;
-    height: 600px;
-    margin-bottom: 380px;
+    padding: 100px 30px 50px 30px;
 }
 #hero .wrapper {
     max-width: 1080px;
     padding: 0;
 }
 #hero .logo {
-    max-width: 240px;
+    max-width: 160px;
     margin: 0 auto 25px auto;
 }
 #hero h1 {
-    font-size: 2.25rem;
+    font-size: 1.6rem;
     font-weight: 300;
     max-width: 700px;
     margin: 0 auto 45px auto;
     text-align: center;
-    line-height: 2.75rem;
+    line-height: 2rem;
     letter-spacing: -2px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
@@ -174,13 +172,13 @@ h3 {
 /* Intro */
 .intro {
     text-align: center;
-    padding: 100px 0 0 0;
+    padding: 50px 0 0 0;
 }
 .intro h2 {
     max-width: 680px;
     margin: 0 auto;
     letter-spacing: -1px;
-    font-size: 2.6rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 .intro img {
@@ -192,20 +190,16 @@ h3 {
     background-color: #FCF9FF;
 }
 .atributo.even .wrapper{
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: space-between;
 }
-.atributo.even .wrapper .info{
-    margin-left: 60px;
-}
 .atributo .wrapper {
-    height: 700px;
-}
-.atributo .wrapper {
-    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 50px 15px;
 }
 .atributo .info {
     max-width: 600px;
@@ -216,15 +210,15 @@ h3 {
 .title {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 3rem;
-    letter-spacing: -2px;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: -1px;
     margin-top: 0;
     margin-bottom: 24px;
-    line-height: 3.4rem;
 }
 .description {
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: 300;
     max-width: 525px;
 }
@@ -311,12 +305,15 @@ h3 {
 .proyecto .right, .proyecto .left {
     max-width: 420px;
 }
+.no-mobile {
+    display: none;
+}
 
 /* Formato Case Study */
 #hero-case-study {
     background: #0055ff;
     color: #FFF;
-    padding: 170px 0 0 0;
+    padding: 100px 0 0 0;
     text-align: center;
     /*display: flex;
     flex-direction: column;*/
@@ -585,12 +582,70 @@ video {
     h3 {
         font-size: 1.5rem;
     }
+    
     /* Hero de la home */
+    #hero {
+        height: 600px;
+        margin-bottom: 380px;
+    }
+    #hero .logo {
+        max-width: 240px;
+        margin: 0 auto 25px auto;
+    }
     #hero p {
         font-size: 1.6rem;
     }
+    #hero h1 {
+        font-size: 2.25rem;
+        font-weight: 300;
+        max-width: 700px;
+        margin: 0 auto 45px auto;
+        text-align: center;
+        line-height: 2.75rem;
+        letter-spacing: -2px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    }
     .hero__wrapper {
         max-width: 750px;
+    }
+    .atributo .wrapper {
+        flex-direction: row;
+        overflow: visible;
+        padding: 0;
+        height: 700px;
+    }
+    .atributo.even .wrapper{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .atributo.even .wrapper .info {
+        margin-left: 60px;
+    }
+    .title {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 3rem;
+        letter-spacing: -2px;
+        margin-top: 0;
+        margin-bottom: 24px;
+        line-height: 3.4rem;
+    }
+    .intro h2 {
+        max-width: 680px;
+        margin: 0 auto;
+        letter-spacing: -1px;
+        font-size: 2.6rem;
+        font-weight: 300;
+    }
+    .intro {
+        text-align: center;
+        padding: 100px 0 0 0;
+    }
+    .description {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        font-weight: 300;
+        max-width: 525px;
     }
     /* Formato Case study */
     #hero-case-study {
