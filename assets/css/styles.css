@@ -214,11 +214,11 @@ h3 {
     line-height: 2.4rem;
     letter-spacing: -1px;
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 .description {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     font-weight: 300;
     max-width: 525px;
 }
@@ -457,11 +457,14 @@ video {
 }
 .case-study__special ol li {
     color: #512683;
-    font-family: 'Product Sans Black', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
 }
 .case-study__special ol li span {
     color: #1C232B;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 .case-study__special img {
     max-width: 580px;
@@ -629,6 +632,7 @@ video {
         margin-top: 0;
         margin-bottom: 24px;
         line-height: 3.4rem;
+        max-width: 500px;
     }
     .intro h2 {
         max-width: 680px;
@@ -645,7 +649,10 @@ video {
         font-size: 1.25rem;
         line-height: 1.875rem;
         font-weight: 300;
-        max-width: 525px;
+        max-width: 500px;
+    }
+    .no-mobile {
+        display: block;
     }
     /* Formato Case study */
     #hero-case-study {
